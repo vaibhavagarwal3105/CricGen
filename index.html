@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CricGen - Free Games Online</title>
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/tmp/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Cricgen</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <a href="#live" class="navbar-link skewBg" data-nav-link>Live</a>
+            </li> -->
+
+            <li class="navbar-item">
+              <a href="#features" class="navbar-link skewBg" data-nav-link>Features</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link skewBg" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+
+        
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+ -->
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">World Of Gaming</p>
+
+            <h1 class="h1 hero-title">
+              Play <span class="span">For</span> Fun
+            </h1>
+
+            <p class="hero-text">
+              Find technology or people for digital projects in public sector and Find an individual specialist develope
+              researcher.
+            </p>
+
+
+          </div>
+
+          <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
+            <img src="./assets/images/hero-banner.png" width="700" height="700" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BRAND
+      -->
+
+      <section class="section brand" aria-label="brand">
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <div class="section-wrapper">
+
+        <!-- 
+          - #LATEST GAME
+        -->
+
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+
+            <!-- <p class="section-subtitle">Our Games</p> -->
+
+            <h2 class="h2 section-title">
+              Latest <span class="span">Games</span>
+            </h2>
+
+            <ul class="has-scrollbar">
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="data:image/png;base64,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" width="400" height="470" loading="lazy"
+                      alt="White Walker Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" target="_blank" class="card-badge skewBg">M,N,K</a>
+
+                    <h3 class="h3">
+                      <a href="/tictactoe.github.io-main/" class="card-title">Tic-Tac- <span class="span">Toe</span></a>
+                    </h3>
+
+                    <!-- <p class="card-price">
+                      Entry Fee : <span class="span">Free</span>
+                    </p> -->
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUFiR4qqbouoFBZXPDoD1vOfLHRH3cMKq-A&usqp=CAU" width="400" height="470" loading="lazy"
+                      alt="Hunter Killer II" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" target="_blank" class="card-badge skewBg">Logical</a>
+
+                    <h3 class="h3">
+                      <a href="/SolveSudoku.github.io-main/" class="card-title">Sudoku <span class="span">Solver</span></a>
+                    </h3>
+
+                    <!-- <p class="card-price">
+                      Entry Fee : <span class="span">Free</span>
+                    </p> -->
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="data:image/png;base64,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" width="400" height="470" loading="lazy"
+                      alt="Hunter Killer II" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="" class="card-badge skewBg">Adventure</a>
+
+                    <h3 class="h3">
+                      <a href="/DragonGame.github.io-main/" class="card-title">Dragon And <span class="span">Monster</span></a>
+                    </h3>
+
+                    <!-- <p class="card-price">
+                      Entry Fee : <span class="span">Free</span>
+                    </p> -->
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkY3tJwdYA6v73GnYi8sjnfz0Jj1ZGiN3H3g&usqp=CAU" width="400" height="470" loading="lazy"
+                      alt="Cyberpunk Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Dice-Board Game</a>
+
+                    <h3 class="h3">
+                      <a href="/SnakeAndFruit.github.io-main/" class="card-title">Snakes And <span class="span">Fruits</span></a>
+                    </h3>
+
+                    <!-- <p class="card-price">
+                      Entry Fee : <span class="span">Free</span>
+                    </p> -->
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+
+
+        <div class="header header-top">
+          <div class="container">
+<!--     
+            <div class="countdown-text">
+              Exclusive Black Friday ! Offer <span class="span skewBg">10</span> Days
+            </div> -->
+    
+            <div class="social-wrapper">
+    
+              <p class="social-title">Follow us on :</p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+
+
+    </article>
+  </main>
+
+
+
+
+
+ 
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
